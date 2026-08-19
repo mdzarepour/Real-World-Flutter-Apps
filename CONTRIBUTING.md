@@ -1,12 +1,10 @@
 # Contributing
 
-Thank you for your interest in contributing to Real-World Flutter Apps! 🎉
+Thank you for your interest in contributing to **Real-World Flutter Apps**! 🎉
 
-This project is a community-driven collection of real-world applications
-built with Flutter and released to production.
+This project is a community-driven collection of real-world applications built with Flutter and released to production.
 
-Contributions are welcome, whether you want to add a new application,
-update existing information, or improve the project itself.
+Contributions are welcome, whether you want to add a new application, update existing information, or improve the project itself.
 
 ## Adding a New App
 
@@ -20,7 +18,8 @@ Example:
 
 ```text
 apps/habitkit.yaml
-assets/habitkit_logo.png```
+assets/habitkit_logo.png
+```
 
 ## Application Data
 
@@ -57,6 +56,7 @@ stores:
 official_website: "https://www.example.com/"
 
 last_verified: 2026-08-19
+```
 
 ## Data Accuracy
 
@@ -67,8 +67,7 @@ Please make sure submitted information is:
 - Up to date
 - Clearly formatted
 
-Store statistics such as downloads, ratings, reviews, and application size
-change over time.
+Store statistics such as downloads, ratings, reviews, and application size change over time.
 
 Always update `last_verified` when verifying application statistics.
 
@@ -77,10 +76,14 @@ Always update `last_verified` when verifying application statistics.
 Please use an appropriate application logo and place it in:
 
 ```text
-assets/```
+assets/
+```
 
 Use this naming convention:
+
+```text
 <appname>_logo.png
+```
 
 ## Pull Requests
 
@@ -94,12 +97,12 @@ Before opening a Pull Request:
 
 ```bash
 dart pub get
-dart run scripts/generate_readme.dart```
+dart run scripts/generate_readme.dart
+```
 
 ## Updating an Existing App
 
-If information about an existing application becomes outdated, you can
-update its YAML file and submit a Pull Request.
+If information about an existing application becomes outdated, you can update its YAML file and submit a Pull Request.
 
 Examples include:
 
@@ -114,12 +117,12 @@ Examples include:
 Remember to update:
 
 ```yaml
-last_verified: YYYY-MM-DD```
+last_verified: YYYY-MM-DD
+```
 
 ## Issues
 
-If you find incorrect information or have an idea for improving the
-repository, feel free to open an Issue.
+If you find incorrect information or have an idea for improving the repository, feel free to open an Issue.
 
 Please provide enough information for the issue to be verified.
 
@@ -132,4 +135,5 @@ Do not manually edit the generated application table in `README.md`.
 Changes to application data should be made in:
 
 ```text
-apps/```
+apps/
+```
