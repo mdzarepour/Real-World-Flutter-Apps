@@ -10,8 +10,8 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **3 Apps** |
-| Categories | **2** |
+| Applications | **4 Apps** |
+| Categories | **3** |
 
 ---
 
@@ -44,13 +44,37 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 <small>
 📥 500K+<br>
 ⭐ 4.6 (11K)<br>
-📦 30 Mb
+📦 30 MB
 </small>
 </td>
   <td><a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"><b>Link</b></a><br>
 <small>
 ⭐ 4.9 (2.3K)<br>
 📦 216 MB
+</small>
+</td>
+</tr>
+
+<tr valign="top">
+  <td align="center"><img src="assets/jumpjumpvpn_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;"></td>
+  <td>
+    <strong>Jump Jump Vpn</strong>
+    <br><a href="https://jumpjump.io/#/home/index"><small>Website</small></a>
+  </td>
+  <td>SOON BODYWERKZ</td>
+  <td><code>Network</code></td>
+  <td align="center"><code>production</code></td>
+  <td><a href="https://play.google.com/store/apps/details?id=app.jumpjumpvpn.jumpjumpvpn"><b>Link</b></a><br>
+<small>
+📥 100M+<br>
+⭐ 4.5 (976K)<br>
+📦 58 MB
+</small>
+</td>
+  <td><a href="https://apps.apple.com/us/app/jumpjumpvpn-fast-secure/id6451097052"><b>Link</b></a><br>
+<small>
+⭐ 4.7 (32K)<br>
+📦 257 MB
 </small>
 </td>
 </tr>
@@ -68,7 +92,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 <small>
 📥 100K+<br>
 ⭐ 4.6 (797)<br>
-📦 18 Mb
+📦 18 MB
 </small>
 </td>
   <td><a href="https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"><b>Link</b></a><br>
@@ -92,7 +116,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 <small>
 📥 500K+<br>
 ⭐ 4.5 (7.57k)<br>
-📦 50 Mb
+📦 50 MB
 </small>
 </td>
   <td><a href="https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"><b>Link</b></a><br>
@@ -112,6 +136,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 ## Categories
 
 - **Education** — 1 app
+- **Network** — 1 app
 - **Productivity** — 2 apps
 
 ---
