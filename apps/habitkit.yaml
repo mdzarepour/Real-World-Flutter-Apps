@@ -15,7 +15,7 @@ stores:
     downloads: "500K+"
     rating: "4.6"
     reviews: "11K"
-    size: "30 Mb"
+    size: "30 MB"
 
   app_store:
     url: "https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"

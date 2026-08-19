@@ -1,0 +1,28 @@
+name: Jump Jump Vpn
+creator: SOON BODYWERKZ
+category: Network
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=app.jumpjumpvpn.jumpjumpvpn"
+    downloads: "100M+"
+    rating: "4.5"
+    reviews: "976K"
+    size: "58 MB"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/jumpjumpvpn-fast-secure/id6451097052"
+    rating: "4.7"
+    reviews: "32K"
+    size: "257 MB"
+
+official_website: "https://jumpjump.io/#/home/index"
+
+last_verified: 2026-08-19
