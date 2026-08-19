@@ -10,7 +10,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **2 Apps** |
+| Applications | **3 Apps** |
 | Categories | **2** |
 
 ---
@@ -56,6 +56,30 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 </tr>
 
 <tr valign="top">
+  <td align="center"><img src="assets/storypad_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;"></td>
+  <td>
+    <strong>StoryPad</strong>
+    <br><a href="https://github.com/theachoem/storypad"><small>Website</small></a>
+  </td>
+  <td>Thea Choem</td>
+  <td><code>Productivity</code></td>
+  <td align="center"><code>production</code></td>
+  <td><a href="https://play.google.com/store/apps/details?id=com.tc.writestory"><b>Link</b></a><br>
+<small>
+📥 100K+<br>
+⭐ 4.6 (797)<br>
+📦 18 Mb
+</small>
+</td>
+  <td><a href="https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"><b>Link</b></a><br>
+<small>
+⭐ 4.9 (14)<br>
+📦 115 MB
+</small>
+</td>
+</tr>
+
+<tr valign="top">
   <td align="center"><img src="assets/vocat_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;"></td>
   <td>
     <strong>Vocat</strong>
@@ -88,7 +112,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 ## Categories
 
 - **Education** — 1 app
-- **Productivity** — 1 app
+- **Productivity** — 2 apps
 
 ---
 
