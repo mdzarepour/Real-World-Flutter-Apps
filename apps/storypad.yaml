@@ -1,0 +1,28 @@
+name: StoryPad
+creator: Thea Choem
+category: Productivity
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=com.tc.writestory"
+    downloads: "100K+"
+    rating: "4.6"
+    reviews: "797"
+    size: "18 Mb"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"
+    rating: "4.9"
+    reviews: "14"
+    size: "115 MB"
+
+official_website: "https://github.com/theachoem/storypad"
+
+last_verified: 2026-08-19
