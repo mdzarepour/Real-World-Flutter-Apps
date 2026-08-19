@@ -10,7 +10,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **4 Apps** |
+| Applications | **5 Apps** |
 | Categories | **3** |
 
 ---
@@ -29,6 +29,44 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 </tr>
 </thead>
 <tbody>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
+    <img src="assets/gemininotebook_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>Gemini Notebook</strong>
+    <br><a href="https://notebook.google.com/?pli=1"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    Google LLC
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Productivity</code>
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.labs.language.tailwind"><b>Link</b></a><br>
+<small>
+📥 10M+<br>
+⭐ 4.8 (263K)<br>
+📦 29 MB
+</small>
+
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://apps.apple.com/us/app/gemini-notebook/id6737527615"><b>Link</b></a><br>
+<small>
+⭐ 4.9 (55K)<br>
+📦 201 MB
+</small>
+
+  </td>
+</tr>
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
@@ -192,7 +230,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 - **Education** — 1 app
 - **Network** — 1 app
-- **Productivity** — 2 apps
+- **Productivity** — 3 apps
 
 ---
 
