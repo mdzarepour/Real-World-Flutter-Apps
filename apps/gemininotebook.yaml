@@ -1,0 +1,28 @@
+name: Gemini Notebook
+creator: Google LLC
+category: Productivity
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=com.google.android.apps.labs.language.tailwind"
+    downloads: "10M+"
+    rating: "4.8"
+    reviews: "263K"
+    size: "29 MB"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/gemini-notebook/id6737527615"
+    rating: "4.9"
+    reviews: "55K"
+    size: "201 MB"
+
+official_website: "https://notebook.google.com/?pli=1"
+
+last_verified: 2026-08-19
