@@ -19,38 +19,39 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <table width="100%">
 <thead>
-<tr>
-<th width="7%">Logo</th>
-<th width="15%">App</th>
-<th width="15%">Creator</th>
-<th width="13%">Category</th>
-<th width="10%">Flutter</th>
-<th width="20%">Android</th>
-<th width="20%">iOS</th>
+<tr align="center">
+  <th width="8%">Logo</th>
+  <th width="20%">App</th>
+  <th width="16%">Creator</th>
+  <th width="14%">Category</th>
+  <th width="10%">Status</th>
+  <th width="16%">Google Play</th>
+  <th width="16%">App Store</th>
 </tr>
 </thead>
 <tbody>
 
-<tr>
-<td align="center"><img src="assets/habitkit_logo.png" width="50"></td>
-<td>
-<strong>HabitKit</strong>
-<br>
-<a href="https://www.habitkit.app/">Website</a>
+<tr valign="top">
+  <td align="center"><img src="assets/habitkit_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;"></td>
+  <td>
+    <strong>HabitKit</strong>
+    <br><a href="https://www.habitkit.app/"><small>🌐 Website</small></a>
+  </td>
+  <td>Sebastian Röhl</td>
+  <td><code>Productivity</code></td>
+  <td align="center"><code>production</code></td>
+  <td><a href="https://play.google.com/store/apps/details?id=com.roehl.habitkit"><b>GET IT ON Play Store</b></a><br>
+<small>
+📥 500K+<br>
+⭐ 4.6 (11K)<br>
+📦 30 Mb
+</small>
 </td>
-<td>Sebastian Röhl</td>
-<td>Productivity</td>
-<td>production</td>
-<td><a href="https://play.google.com/store/apps/details?id=com.roehl.habitkit">Android</a>
-<br>📥 500K+
-<br>⭐ 4.6
-<br>💬 11K
-<br>📦 30 Mb
-</td>
-<td><a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070">iOS</a>
-<br>⭐ 4.9
-<br>💬 2.3K
-<br>📦 216 MB
+  <td><a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"><b>Download on App Store</b></a><br>
+<small>
+⭐ 4.9 (2.3K)<br>
+📦 216 MB
+</small>
 </td>
 </tr>
 
