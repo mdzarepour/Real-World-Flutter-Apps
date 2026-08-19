@@ -90,8 +90,8 @@ void main() {
 <thead>
 <tr align="center">
   <th width="8%">Logo</th>
-  <th width="20%">App</th>
-  <th width="16%">Creator</th>
+  <th width="10%">App</th>
+  <th width="15%">Creator</th>
   <th width="14%">Category</th>
   <th width="10%">Status</th>
   <th width="16%">Google Play</th>
@@ -104,7 +104,7 @@ void main() {
   for (final app in apps) {
     final android = app['android'] != null
         ? '''
-<a href="${app['android']}"><b>GET IT ON Play Store</b></a><br>
+<a href="${app['android']}"><b>Link</b></a><br>
 <small>
 📥 ${app['androidDownloads'] ?? '-'}<br>
 ⭐ ${app['androidRating'] ?? '-'} (${app['androidReviews'] ?? '-'})<br>
@@ -115,7 +115,7 @@ void main() {
 
     final ios = app['ios'] != null
         ? '''
-<a href="${app['ios']}"><b>Download on App Store</b></a><br>
+<a href="${app['ios']}"><b>Limk</b></a><br>
 <small>
 ⭐ ${app['iosRating'] ?? '-'} (${app['iosReviews'] ?? '-'})<br>
 📦 ${app['iosSize'] ?? '-'}
@@ -131,7 +131,7 @@ void main() {
         : '-';
 
     final officialWebsite = app['officialWebsite'] != null
-        ? '<a href="${app['officialWebsite']}"><small>🌐 Website</small></a>'
+        ? '<a href="${app['officialWebsite']}"><small>Website</small></a>'
         : '';
 
     buffer.writeln('''
