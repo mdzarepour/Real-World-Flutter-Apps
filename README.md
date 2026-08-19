@@ -6,16 +6,16 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 ---
 
-## 📊 Statistics
+## Statistics
 
 | Metric | Value |
 |---|---:|
-| Applications | **1 App** |
-| Categories | **1** |
+| Applications | **2 Apps** |
+| Categories | **2** |
 
 ---
 
-## 📱 Applications
+## Applications
 
 <table width="100%">
 <thead>
@@ -47,10 +47,34 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 📦 30 Mb
 </small>
 </td>
-  <td><a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"><b>Limk</b></a><br>
+  <td><a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"><b>Link</b></a><br>
 <small>
 ⭐ 4.9 (2.3K)<br>
 📦 216 MB
+</small>
+</td>
+</tr>
+
+<tr valign="top">
+  <td align="center"><img src="assets/vocat_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;"></td>
+  <td>
+    <strong>Vocat</strong>
+    <br><a href="https://vocat.devstory.co.kr/en"><small>Website</small></a>
+  </td>
+  <td>DevStory</td>
+  <td><code>Education</code></td>
+  <td align="center"><code>production</code></td>
+  <td><a href="https://play.google.com/store/apps/details?id=kr.co.devstory.vocat&hl=en"><b>Link</b></a><br>
+<small>
+📥 500K+<br>
+⭐ 4.5 (7.57k)<br>
+📦 50 Mb
+</small>
+</td>
+  <td><a href="https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"><b>Link</b></a><br>
+<small>
+⭐ 4.8 (112)<br>
+📦 175 MB
 </small>
 </td>
 </tr>
@@ -61,13 +85,14 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 ---
 
-## 🏷️ Categories
+## Categories
 
+- **Education** — 1 app
 - **Productivity** — 1 app
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```text
 real-world-flutter-apps/
@@ -97,7 +122,7 @@ real-world-flutter-apps/
 
 ---
 
-## 🧩 Data Model
+## Data Model
 
 Each application is represented by a YAML file inside the `apps/` directory.
 
@@ -136,7 +161,7 @@ last_verified: 2026-08-19
 
 ---
 
-## ⚙️ Automation
+## Automation
 
 The README is generated automatically from the structured application data.
 
@@ -159,7 +184,7 @@ This keeps the README synchronized with the underlying dataset without requiring
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome. You can contribute by:
 
@@ -176,7 +201,7 @@ See `CONTRIBUTING.md` for contribution guidelines.
 
 ---
 
-## 📋 Data Guidelines
+## Data Guidelines
 
 The project aims to keep application data:
 
@@ -191,7 +216,7 @@ Statistics such as downloads, ratings, reviews, and application size are snapsho
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This repository is a community-maintained collection of publicly available information.
 
@@ -202,6 +227,6 @@ Listing an application does not imply endorsement by its developer, company, Goo
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
