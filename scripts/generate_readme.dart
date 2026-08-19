@@ -1,3 +1,4 @@
+
 import 'dart:io';
 
 import 'package:yaml/yaml.dart';
@@ -20,7 +21,6 @@ void main() {
       'name': data['name'],
       'creator': data['creator'],
       'category': data['category'],
-      'flutterStatus': data['flutter']?['status'],
       'officialWebsite': data['official_website'],
       'logo': 'assets/${fileName}_logo.png',
       'android': data['stores']?['google_play']?['url'],
@@ -84,18 +84,16 @@ void main() {
 
   buffer.writeln('## Applications\n');
 
-  buffer.writeln('<table width="100%">');
-
   buffer.writeln('''
+<table width="100%">
 <thead>
-<tr align="center">
-  <th width="8%">Logo</th>
-  <th width="10%">App</th>
-  <th width="15%">Creator</th>
-  <th width="14%">Category</th>
-  <th width="10%">Status</th>
-  <th width="16%">Google Play</th>
-  <th width="16%">App Store</th>
+<tr>
+  <th width="10%" align="center">Logo</th>
+  <th width="16%" align="center">App</th>
+  <th width="18%" align="center">Creator</th>
+  <th width="14%" align="center">Category</th>
+  <th width="21%" align="center">Google Play</th>
+  <th width="21%" align="center">App Store</th>
 </tr>
 </thead>
 <tbody>
@@ -124,28 +122,39 @@ void main() {
         : '-';
 
     final logo =
-        '<img src="${app['logo']}" width="48" height="48" style="border-radius: 10px; object-fit: cover;">';
-
-    final flutterStatus = app['flutterStatus'] != null
-        ? '<code>${app['flutterStatus']}</code>'
-        : '-';
+        '<img src="${app['logo']}" width="48" height="48" '
+        'style="border-radius: 10px; object-fit: cover;">';
 
     final officialWebsite = app['officialWebsite'] != null
         ? '<a href="${app['officialWebsite']}"><small>Website</small></a>'
         : '';
 
     buffer.writeln('''
-<tr valign="top">
-  <td align="center">$logo</td>
-  <td>
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
+    $logo
+  </td>
+
+  <td align="center" valign="middle">
     <strong>${app['name']}</strong>
     ${officialWebsite.isNotEmpty ? '<br>$officialWebsite' : ''}
   </td>
-  <td>${app['creator'] ?? '-'}</td>
-  <td><code>${app['category']}</code></td>
-  <td align="center">$flutterStatus</td>
-  <td>$android</td>
-  <td>$ios</td>
+
+  <td align="center" valign="middle">
+    ${app['creator'] ?? '-'}
+  </td>
+
+  <td align="center" valign="middle">
+    <code>${app['category']}</code>
+  </td>
+
+  <td align="center" valign="middle">
+    $android
+  </td>
+
+  <td align="center" valign="middle">
+    $ios
+  </td>
 </tr>
 ''');
   }
@@ -204,28 +213,27 @@ real-world-flutter-apps/
 ├── CONTRIBUTING.md
 ├── LICENSE
 └── pubspec.yaml
-```
+````
+
 ''');
 
-  buffer.writeln('\n---\n');
+buffer.writeln('\n---\n');
 
-  // ---------------------------------------------------------------------------
-  // Data Model
-  // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Data Model
+// ---------------------------------------------------------------------------
 
-  buffer.writeln('## Data Model\n');
+buffer.writeln('## Data Model\n');
 
-  buffer.writeln('''
+buffer.writeln('''
 Each application is represented by a YAML file inside the `apps/` directory.
 
 **Example:**
+
 ```yaml
 name: HabitKit
 creator: Sebastian Röhl
 category: Productivity
-
-flutter:
-  status: production
 
 platforms:
   - android
@@ -249,17 +257,18 @@ official_website: "https://www.habitkit.app/"
 
 last_verified: 2026-08-19
 ```
+
 ''');
 
-  buffer.writeln('\n---\n');
+buffer.writeln('\n---\n');
 
-  // ---------------------------------------------------------------------------
-  // Automation
-  // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Automation
+// ---------------------------------------------------------------------------
 
-  buffer.writeln('## Automation\n');
+buffer.writeln('## Automation\n');
 
-  buffer.writeln('''
+buffer.writeln('''
 The README is generated automatically from the structured application data.
 
 When application data changes and is pushed to the main branch:
@@ -279,57 +288,57 @@ Automatic Commit
 This keeps the README synchronized with the underlying dataset without requiring manual table updates.
 ''');
 
-  buffer.writeln('\n---\n');
+buffer.writeln('\n---\n');
 
-  // ---------------------------------------------------------------------------
-  // Contributing
-  // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Contributing
+// ---------------------------------------------------------------------------
 
-  buffer.writeln('## Contributing\n');
+buffer.writeln('## Contributing\n');
 
-  buffer.writeln('''
+buffer.writeln('''
 Contributions are welcome. You can contribute by:
 
-- Adding a real-world Flutter application
-- Updating existing application information
-- Correcting outdated statistics
-- Improving the generator
-- Improving documentation
+* Adding a real-world Flutter application
+* Updating existing application information
+* Correcting outdated statistics
+* Improving the generator
+* Improving documentation
 
 Before submitting a contribution, make sure the information is based on publicly available sources and that store statistics include an appropriate verification date.
 
 See `CONTRIBUTING.md` for contribution guidelines.
 ''');
 
-  buffer.writeln('\n---\n');
+buffer.writeln('\n---\n');
 
-  // ---------------------------------------------------------------------------
-  // Data Guidelines
-  // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Data Guidelines
+// ---------------------------------------------------------------------------
 
-  buffer.writeln('## Data Guidelines\n');
+buffer.writeln('## Data Guidelines\n');
 
-  buffer.writeln('''
+buffer.writeln('''
 The project aims to keep application data:
 
-- Structured
-- Reproducible
-- Easy to update
-- Machine-readable
-- Human-readable
+* Structured
+* Reproducible
+* Easy to update
+* Machine-readable
+* Human-readable
 
 Statistics such as downloads, ratings, reviews, and application size are snapshots and may change over time.
 ''');
 
-  buffer.writeln('\n---\n');
+buffer.writeln('\n---\n');
 
-  // ---------------------------------------------------------------------------
-  // Disclaimer
-  // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Disclaimer
+// ---------------------------------------------------------------------------
 
-  buffer.writeln('## Disclaimer\n');
+buffer.writeln('## Disclaimer\n');
 
-  buffer.writeln('''
+buffer.writeln('''
 This repository is a community-maintained collection of publicly available information.
 
 Application statistics may change over time and should not be considered permanent values.
@@ -337,20 +346,22 @@ Application statistics may change over time and should not be considered permane
 Listing an application does not imply endorsement by its developer, company, Google, Apple, or the Flutter team.
 ''');
 
-  buffer.writeln('\n---\n');
+buffer.writeln('\n---\n');
 
-  // ---------------------------------------------------------------------------
-  // License
-  // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// License
+// ---------------------------------------------------------------------------
 
-  buffer.writeln('## License\n');
+buffer.writeln('## License\n');
 
-  buffer.writeln('This project is licensed under the MIT License.');
+buffer.writeln('This project is licensed under the MIT License.');
 
-  // ---------------------------------------------------------------------------
-  // Write README
-  // ---------------------------------------------------------------------------
+// ---------------------------------------------------------------------------
+// Write README
+// ---------------------------------------------------------------------------
 
-  File('README.md').writeAsStringSync(buffer.toString());
-  print('README generated successfully.');
+File('README.md').writeAsStringSync(buffer.toString());
+
+print('README generated successfully.');
 }
+
