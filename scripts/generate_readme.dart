@@ -23,13 +23,11 @@ void main() {
       'flutterStatus': data['flutter']?['status'],
       'officialWebsite': data['official_website'],
       'logo': 'assets/${fileName}_logo.png',
-
       'android': data['stores']?['google_play']?['url'],
       'androidDownloads': data['stores']?['google_play']?['downloads'],
       'androidRating': data['stores']?['google_play']?['rating'],
       'androidReviews': data['stores']?['google_play']?['reviews'],
       'androidSize': data['stores']?['google_play']?['size'],
-
       'ios': data['stores']?['app_store']?['url'],
       'iosRating': data['stores']?['app_store']?['rating'],
       'iosReviews': data['stores']?['app_store']?['reviews'],
@@ -41,11 +39,8 @@ void main() {
     (a, b) => a['name'].toString().compareTo(b['name'].toString()),
   );
 
-  final categories = apps
-      .map((app) => app['category'].toString())
-      .toSet()
-      .toList()
-    ..sort();
+  final categories =
+      apps.map((app) => app['category'].toString()).toSet().toList()..sort();
 
   final buffer = StringBuffer();
 
@@ -93,14 +88,14 @@ void main() {
 
   buffer.writeln('''
 <thead>
-<tr>
-<th width="7%">Logo</th>
-<th width="15%">App</th>
-<th width="15%">Creator</th>
-<th width="13%">Category</th>
-<th width="10%">Flutter</th>
-<th width="20%">Android</th>
-<th width="20%">iOS</th>
+<tr align="center">
+  <th width="8%">Logo</th>
+  <th width="20%">App</th>
+  <th width="16%">Creator</th>
+  <th width="14%">Category</th>
+  <th width="10%">Status</th>
+  <th width="16%">Google Play</th>
+  <th width="16%">App Store</th>
 </tr>
 </thead>
 <tbody>
@@ -109,44 +104,48 @@ void main() {
   for (final app in apps) {
     final android = app['android'] != null
         ? '''
-<a href="${app['android']}">Android</a>
-<br>📥 ${app['androidDownloads'] ?? '-'}
-<br>⭐ ${app['androidRating'] ?? '-'}
-<br>💬 ${app['androidReviews'] ?? '-'}
-<br>📦 ${app['androidSize'] ?? '-'}
+<a href="${app['android']}"><b>GET IT ON Play Store</b></a><br>
+<small>
+📥 ${app['androidDownloads'] ?? '-'}<br>
+⭐ ${app['androidRating'] ?? '-'} (${app['androidReviews'] ?? '-'})<br>
+📦 ${app['androidSize'] ?? '-'}
+</small>
 '''
         : '-';
 
     final ios = app['ios'] != null
         ? '''
-<a href="${app['ios']}">iOS</a>
-<br>⭐ ${app['iosRating'] ?? '-'}
-<br>💬 ${app['iosReviews'] ?? '-'}
-<br>📦 ${app['iosSize'] ?? '-'}
+<a href="${app['ios']}"><b>Download on App Store</b></a><br>
+<small>
+⭐ ${app['iosRating'] ?? '-'} (${app['iosReviews'] ?? '-'})<br>
+📦 ${app['iosSize'] ?? '-'}
+</small>
 '''
         : '-';
 
-    final logo = '<img src="${app['logo']}" width="50">';
+    final logo =
+        '<img src="${app['logo']}" width="48" height="48" style="border-radius: 10px; object-fit: cover;">';
 
-    final flutterStatus = app['flutterStatus'] ?? '-';
-
-    final officialWebsite = app['officialWebsite'] != null
-        ? '<a href="${app['officialWebsite']}">Website</a>'
+    final flutterStatus = app['flutterStatus'] != null
+        ? '<code>${app['flutterStatus']}</code>'
         : '-';
 
+    final officialWebsite = app['officialWebsite'] != null
+        ? '<a href="${app['officialWebsite']}"><small>🌐 Website</small></a>'
+        : '';
+
     buffer.writeln('''
-<tr>
-<td align="center">$logo</td>
-<td>
-<strong>${app['name']}</strong>
-<br>
-$officialWebsite
-</td>
-<td>${app['creator']}</td>
-<td>${app['category']}</td>
-<td>$flutterStatus</td>
-<td>$android</td>
-<td>$ios</td>
+<tr valign="top">
+  <td align="center">$logo</td>
+  <td>
+    <strong>${app['name']}</strong>
+    ${officialWebsite.isNotEmpty ? '<br>$officialWebsite' : ''}
+  </td>
+  <td>${app['creator'] ?? '-'}</td>
+  <td><code>${app['category']}</code></td>
+  <td align="center">$flutterStatus</td>
+  <td>$android</td>
+  <td>$ios</td>
 </tr>
 ''');
   }
@@ -165,9 +164,8 @@ $officialWebsite
   buffer.writeln('## 🏷️ Categories\n');
 
   for (final category in categories) {
-    final count = apps
-        .where((app) => app['category'].toString() == category)
-        .length;
+    final count =
+        apps.where((app) => app['category'].toString() == category).length;
 
     final label = count == 1 ? 'app' : 'apps';
 
