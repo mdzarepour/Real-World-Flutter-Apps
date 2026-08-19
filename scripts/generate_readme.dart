@@ -43,33 +43,65 @@ void main() {
 
   final appCount = apps.length;
   final appLabel = appCount == 1 ? 'App' : 'Apps';
+
   buffer.writeln('📱 **$appCount $appLabel**\n');
 
-  buffer.writeln('| App | Creator | Category | Android | iOS |');
-  buffer.writeln('|---|---|---|---|---|');
+  buffer.writeln('<table width="100%">');
+
+  buffer.writeln('''
+<thead>
+<tr>
+<th width="8%">Logo</th>
+<th width="18%">App</th>
+<th width="18%">Creator</th>
+<th width="16%">Category</th>
+<th width="20%">Android</th>
+<th width="20%">iOS</th>
+</tr>
+</thead>
+<tbody>
+''');
 
   for (final app in apps) {
     final android = app['android'] != null
-        ? '[Android](${app['android']})'
-            '<br>📥 ${app['androidDownloads'] ?? '-'}'
-            '<br>⭐ ${app['androidRating'] ?? '-'}'
-            '<br>💬 ${app['androidReviews'] ?? '-'}'
-            '<br>📦 ${app['androidSize'] ?? '-'}'
+        ? '''
+<a href="${app['android']}">Android</a>
+<br>📥 ${app['androidDownloads'] ?? '-'}
+<br>⭐ ${app['androidRating'] ?? '-'}
+<br>💬 ${app['androidReviews'] ?? '-'}
+<br>📦 ${app['androidSize'] ?? '-'}
+'''
         : '-';
 
     final ios = app['ios'] != null
-        ? '[iOS](${app['ios']})'
-            '<br>⭐ ${app['iosRating'] ?? '-'}'
-            '<br>💬 ${app['iosReviews'] ?? '-'}'
-            '<br>📦 ${app['iosSize'] ?? '-'}'
+        ? '''
+<a href="${app['ios']}">iOS</a>
+<br>⭐ ${app['iosRating'] ?? '-'}
+<br>💬 ${app['iosReviews'] ?? '-'}
+<br>📦 ${app['iosSize'] ?? '-'}
+'''
         : '-';
 
-    final logo = '<img src="${app['logo']}" width="50">';
+    final logo = '''
+<img src="${app['logo']}" width="50">
+''';
 
-    buffer.writeln(
-      '| $logo ${app['name']} | ${app['creator']} | ${app['category']} | $android | $ios |',
-    );
+    buffer.writeln('''
+<tr>
+<td align="center">$logo</td>
+<td><strong>${app['name']}</strong></td>
+<td>${app['creator']}</td>
+<td>${app['category']}</td>
+<td>$android</td>
+<td>$ios</td>
+</tr>
+''');
   }
+
+  buffer.writeln('''
+</tbody>
+</table>
+''');
 
   File('README.md').writeAsStringSync(buffer.toString());
 
