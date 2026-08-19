@@ -21,8 +21,8 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 <thead>
 <tr align="center">
   <th width="8%">Logo</th>
-  <th width="20%">App</th>
-  <th width="16%">Creator</th>
+  <th width="10%">App</th>
+  <th width="15%">Creator</th>
   <th width="14%">Category</th>
   <th width="10%">Status</th>
   <th width="16%">Google Play</th>
@@ -35,19 +35,19 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center"><img src="assets/habitkit_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;"></td>
   <td>
     <strong>HabitKit</strong>
-    <br><a href="https://www.habitkit.app/"><small>🌐 Website</small></a>
+    <br><a href="https://www.habitkit.app/"><small>Website</small></a>
   </td>
   <td>Sebastian Röhl</td>
   <td><code>Productivity</code></td>
   <td align="center"><code>production</code></td>
-  <td><a href="https://play.google.com/store/apps/details?id=com.roehl.habitkit"><b>GET IT ON Play Store</b></a><br>
+  <td><a href="https://play.google.com/store/apps/details?id=com.roehl.habitkit"><b>Link</b></a><br>
 <small>
 📥 500K+<br>
 ⭐ 4.6 (11K)<br>
 📦 30 Mb
 </small>
 </td>
-  <td><a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"><b>Download on App Store</b></a><br>
+  <td><a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"><b>Limk</b></a><br>
 <small>
 ⭐ 4.9 (2.3K)<br>
 📦 216 MB
