@@ -69,7 +69,7 @@ void main() {
   final appCount = apps.length;
   final appLabel = appCount == 1 ? 'App' : 'Apps';
 
-  buffer.writeln('## 📊 Statistics\n');
+  buffer.writeln('## Statistics\n');
 
   buffer.writeln('| Metric | Value |');
   buffer.writeln('|---|---:|');
@@ -82,7 +82,7 @@ void main() {
   // Applications
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## 📱 Applications\n');
+  buffer.writeln('## Applications\n');
 
   buffer.writeln('<table width="100%">');
 
@@ -115,7 +115,7 @@ void main() {
 
     final ios = app['ios'] != null
         ? '''
-<a href="${app['ios']}"><b>Limk</b></a><br>
+<a href="${app['ios']}"><b>Link</b></a><br>
 <small>
 ⭐ ${app['iosRating'] ?? '-'} (${app['iosReviews'] ?? '-'})<br>
 📦 ${app['iosSize'] ?? '-'}
@@ -161,7 +161,7 @@ void main() {
   // Categories
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## 🏷️ Categories\n');
+  buffer.writeln('## Categories\n');
 
   for (final category in categories) {
     final count =
@@ -178,7 +178,7 @@ void main() {
   // Data Structure
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## 🗂️ Project Structure\n');
+  buffer.writeln('## Project Structure\n');
 
   buffer.writeln('''
 ```text
@@ -213,7 +213,7 @@ real-world-flutter-apps/
   // Data Model
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## 🧩 Data Model\n');
+  buffer.writeln('## Data Model\n');
 
   buffer.writeln('''
 Each application is represented by a YAML file inside the `apps/` directory.
@@ -257,7 +257,7 @@ last_verified: 2026-08-19
   // Automation
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## ⚙️ Automation\n');
+  buffer.writeln('## Automation\n');
 
   buffer.writeln('''
 The README is generated automatically from the structured application data.
@@ -285,7 +285,7 @@ This keeps the README synchronized with the underlying dataset without requiring
   // Contributing
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## 🤝 Contributing\n');
+  buffer.writeln('## Contributing\n');
 
   buffer.writeln('''
 Contributions are welcome. You can contribute by:
@@ -307,7 +307,7 @@ See `CONTRIBUTING.md` for contribution guidelines.
   // Data Guidelines
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## 📋 Data Guidelines\n');
+  buffer.writeln('## Data Guidelines\n');
 
   buffer.writeln('''
 The project aims to keep application data:
@@ -327,7 +327,7 @@ Statistics such as downloads, ratings, reviews, and application size are snapsho
   // Disclaimer
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## ⚠️ Disclaimer\n');
+  buffer.writeln('## Disclaimer\n');
 
   buffer.writeln('''
 This repository is a community-maintained collection of publicly available information.
@@ -343,7 +343,7 @@ Listing an application does not imply endorsement by its developer, company, Goo
   // License
   // ---------------------------------------------------------------------------
 
-  buffer.writeln('## 📜 License\n');
+  buffer.writeln('## License\n');
 
   buffer.writeln('This project is licensed under the MIT License.');
 
