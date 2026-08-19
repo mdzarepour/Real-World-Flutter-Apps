@@ -1,0 +1,28 @@
+name: HabitKit
+creator: Sebastian Röhl
+category: Productivity
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=com.roehl.habitkit"
+    downloads: "500K+"
+    rating: "4.6"
+    reviews: "11K"
+    size: "30 Mb"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"
+    rating: "4.9"
+    reviews: "2.3K"
+    size: "216 MB"
+
+official_website: "https://www.habitkit.app/"
+
+last_verified: 2026-08-19
