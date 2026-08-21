@@ -1,0 +1,28 @@
+name: ELSA Speak
+creator: ElSA Speak
+category: Education
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=us.nobarriers.elsa"
+    downloads: "10M+"
+    rating: "4.5"
+    reviews: "996K"
+    size: "86 MB"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886"
+    rating: "4.8"
+    reviews: "112K"
+    size: "288 MB"
+
+official_website: "https://elsaspeak.com/en"
+
+last_verified: 2026-08-20

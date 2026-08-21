@@ -93,7 +93,7 @@ void main() {
   <th width="18%" align="center">Creator</th>
   <th width="14%" align="center">Category</th>
   <th width="21%" align="center">Google Play</th>
-  <th width="21%" align="center">App Store</th>
+  <th width="35%" align="center">App Store</th>
 </tr>
 </thead>
 <tbody>
