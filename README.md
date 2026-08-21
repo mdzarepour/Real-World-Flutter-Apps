@@ -10,8 +10,8 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **8 Apps** |
-| Categories | **3** |
+| Applications | **9 Apps** |
+| Categories | **4** |
 
 ---
 
@@ -222,6 +222,44 @@ size: 109 MB
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
+    <img src="assets/moodbrush_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>MoodBrush - Brush with Music</strong>
+    <br><a href="https://ahancer.com/ahalab/"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    AHA Lab
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Health & Fitness</code>
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=com.ahancer.moodbrush"><b>Link</b></a><br>
+<small>
+download: 10K+<br>
+rating: 4.6 (113)<br>
+size: 101 MB
+</small>
+
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://apps.apple.com/us/app/moodbrush-brush-with-music/id6478204966"><b>Link</b></a><br>
+<small>
+⭐ 1.0 (4.7)<br>
+📦 177 MB
+</small>
+
+  </td>
+</tr>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
     <img src="assets/storypad_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
   </td>
 
@@ -343,6 +381,7 @@ size: 133 MB
 ## Categories
 
 - **Education** — 4 apps
+- **Health & Fitness** — 1 app
 - **Network** — 1 app
 - **Productivity** — 3 apps
 
