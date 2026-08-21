@@ -10,8 +10,8 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **9 Apps** |
-| Categories | **4** |
+| Applications | **10 Apps** |
+| Categories | **5** |
 
 ---
 
@@ -29,6 +29,39 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 </tr>
 </thead>
 <tbody>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
+    <img src="assets/animelore_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>Anime Lore Discover Anime</strong>
+    
+  </td>
+
+  <td align="center" valign="middle">
+    halako production
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Entertainment</code>
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=com.animelore.app"><b>Link</b></a><br>
+<small>
+↓ : 100K+<br>
+★ : 4.7 (1.77K)<br>
+⛶ : 27 MB
+</small>
+
+  </td>
+
+  <td align="center" valign="middle">
+    -
+  </td>
+</tr>
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
@@ -51,9 +84,9 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=us.nobarriers.elsa"><b>Link</b></a><br>
 <small>
-download: 10M+<br>
-rating: 4.5 (996K)<br>
-size: 86 MB
+↓ : 10M+<br>
+★ : 4.5 (996K)<br>
+⛶ : 86 MB
 </small>
 
   </td>
@@ -61,8 +94,8 @@ size: 86 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886"><b>Link</b></a><br>
 <small>
-⭐ 4.8 (112K)<br>
-📦 288 MB
+★ 4.8 (112K)<br>
+⛶ 288 MB
 </small>
 
   </td>
@@ -89,9 +122,9 @@ size: 86 MB
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.labs.language.tailwind"><b>Link</b></a><br>
 <small>
-download: 10M+<br>
-rating: 4.8 (263K)<br>
-size: 29 MB
+↓ : 10M+<br>
+★ : 4.8 (263K)<br>
+⛶ : 29 MB
 </small>
 
   </td>
@@ -99,8 +132,8 @@ size: 29 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/us/app/gemini-notebook/id6737527615"><b>Link</b></a><br>
 <small>
-⭐ 4.9 (55K)<br>
-📦 201 MB
+★ 4.9 (55K)<br>
+⛶ 201 MB
 </small>
 
   </td>
@@ -127,9 +160,9 @@ size: 29 MB
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.roehl.habitkit"><b>Link</b></a><br>
 <small>
-download: 500K+<br>
-rating: 4.6 (11K)<br>
-size: 30 MB
+↓ : 500K+<br>
+★ : 4.6 (11K)<br>
+⛶ : 30 MB
 </small>
 
   </td>
@@ -137,8 +170,8 @@ size: 30 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"><b>Link</b></a><br>
 <small>
-⭐ 4.9 (2.3K)<br>
-📦 216 MB
+★ 4.9 (2.3K)<br>
+⛶ 216 MB
 </small>
 
   </td>
@@ -165,9 +198,9 @@ size: 30 MB
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=app.jumpjumpvpn.jumpjumpvpn"><b>Link</b></a><br>
 <small>
-download: 100M+<br>
-rating: 4.5 (976K)<br>
-size: 58 MB
+↓ : 100M+<br>
+★ : 4.5 (976K)<br>
+⛶ : 58 MB
 </small>
 
   </td>
@@ -175,8 +208,8 @@ size: 58 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/us/app/jumpjumpvpn-fast-secure/id6451097052"><b>Link</b></a><br>
 <small>
-⭐ 4.7 (32K)<br>
-📦 257 MB
+★ 4.7 (32K)<br>
+⛶ 257 MB
 </small>
 
   </td>
@@ -203,9 +236,9 @@ size: 58 MB
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.ahancer.ahakanji"><b>Link</b></a><br>
 <small>
-download: 100K+<br>
-rating: 4.8 (1.41K)<br>
-size: 109 MB
+↓ : 100K+<br>
+★ : 4.8 (1.41K)<br>
+⛶ : 109 MB
 </small>
 
   </td>
@@ -213,8 +246,8 @@ size: 109 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/il/app/kanji-card-learn-japanese/id6474921240"><b>Link</b></a><br>
 <small>
-⭐ 1.0 (1)<br>
-📦 241 MB
+★ 1.0 (1)<br>
+⛶ 241 MB
 </small>
 
   </td>
@@ -241,9 +274,9 @@ size: 109 MB
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.ahancer.moodbrush"><b>Link</b></a><br>
 <small>
-download: 10K+<br>
-rating: 4.6 (113)<br>
-size: 101 MB
+↓ : 10K+<br>
+★ : 4.6 (113)<br>
+⛶ : 101 MB
 </small>
 
   </td>
@@ -251,8 +284,8 @@ size: 101 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/us/app/moodbrush-brush-with-music/id6478204966"><b>Link</b></a><br>
 <small>
-⭐ 1.0 (4.7)<br>
-📦 177 MB
+★ 1.0 (4.7)<br>
+⛶ 177 MB
 </small>
 
   </td>
@@ -279,9 +312,9 @@ size: 101 MB
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.tc.writestory"><b>Link</b></a><br>
 <small>
-download: 100K+<br>
-rating: 4.6 (797)<br>
-size: 18 MB
+↓ : 100K+<br>
+★ : 4.6 (797)<br>
+⛶ : 18 MB
 </small>
 
   </td>
@@ -289,8 +322,8 @@ size: 18 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"><b>Link</b></a><br>
 <small>
-⭐ 4.9 (14)<br>
-📦 115 MB
+★ 4.9 (14)<br>
+⛶ 115 MB
 </small>
 
   </td>
@@ -317,9 +350,9 @@ size: 18 MB
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=kr.co.devstory.vocat&hl=en"><b>Link</b></a><br>
 <small>
-download: 500K+<br>
-rating: 4.5 (7.57k)<br>
-size: 50 MB
+↓ : 500K+<br>
+★ : 4.5 (7.57k)<br>
+⛶ : 50 MB
 </small>
 
   </td>
@@ -327,8 +360,8 @@ size: 50 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"><b>Link</b></a><br>
 <small>
-⭐ 4.8 (112)<br>
-📦 175 MB
+★ 4.8 (112)<br>
+⛶ 175 MB
 </small>
 
   </td>
@@ -355,9 +388,9 @@ size: 50 MB
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.pallo.passiontimerscoped"><b>Link</b></a><br>
 <small>
-download: 5M+<br>
-rating: 4.6 (76K)<br>
-size: 133 MB
+↓ : 5M+<br>
+★ : 4.6 (76K)<br>
+⛶ : 133 MB
 </small>
 
   </td>
@@ -365,8 +398,8 @@ size: 133 MB
   <td align="center" valign="middle">
     <a href="https://apps.apple.com/us/app/ypt-study-group/id1441909643"><b>Link</b></a><br>
 <small>
-⭐ 4.7 (1.6K)<br>
-📦 279 MB
+★ 4.7 (1.6K)<br>
+⛶ 279 MB
 </small>
 
   </td>
@@ -381,6 +414,7 @@ size: 133 MB
 ## Categories
 
 - **Education** — 4 apps
+- **Entertainment** — 1 app
 - **Health & Fitness** — 1 app
 - **Network** — 1 app
 - **Productivity** — 3 apps
