@@ -10,7 +10,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **7 Apps** |
+| Applications | **8 Apps** |
 | Categories | **3** |
 
 ---
@@ -25,7 +25,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <th width="18%" align="center">Creator</th>
   <th width="14%" align="center">Category</th>
   <th width="21%" align="center">Google Play</th>
-  <th width="35%" align="center">App Store</th>
+  <th width="50%" align="center">App Store</th>
 </tr>
 </thead>
 <tbody>
@@ -51,9 +51,9 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=us.nobarriers.elsa"><b>Link</b></a><br>
 <small>
-📥 10M+<br>
-⭐ 4.5 (996K)<br>
-📦 86 MB
+download: 10M+<br>
+rating: 4.5 (996K)<br>
+size: 86 MB
 </small>
 
   </td>
@@ -89,9 +89,9 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.labs.language.tailwind"><b>Link</b></a><br>
 <small>
-📥 10M+<br>
-⭐ 4.8 (263K)<br>
-📦 29 MB
+download: 10M+<br>
+rating: 4.8 (263K)<br>
+size: 29 MB
 </small>
 
   </td>
@@ -127,9 +127,9 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.roehl.habitkit"><b>Link</b></a><br>
 <small>
-📥 500K+<br>
-⭐ 4.6 (11K)<br>
-📦 30 MB
+download: 500K+<br>
+rating: 4.6 (11K)<br>
+size: 30 MB
 </small>
 
   </td>
@@ -165,9 +165,9 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=app.jumpjumpvpn.jumpjumpvpn"><b>Link</b></a><br>
 <small>
-📥 100M+<br>
-⭐ 4.5 (976K)<br>
-📦 58 MB
+download: 100M+<br>
+rating: 4.5 (976K)<br>
+size: 58 MB
 </small>
 
   </td>
@@ -177,6 +177,44 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 <small>
 ⭐ 4.7 (32K)<br>
 📦 257 MB
+</small>
+
+  </td>
+</tr>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
+    <img src="assets/kanjicard_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>Kanji Card - Learn Japanese</strong>
+    <br><a href="https://ahancer.com/ahalab/"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    AHA Lab
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Education</code>
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=com.ahancer.ahakanji"><b>Link</b></a><br>
+<small>
+download: 100K+<br>
+rating: 4.8 (1.41K)<br>
+size: 109 MB
+</small>
+
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://apps.apple.com/il/app/kanji-card-learn-japanese/id6474921240"><b>Link</b></a><br>
+<small>
+⭐ 1.0 (1)<br>
+📦 241 MB
 </small>
 
   </td>
@@ -203,9 +241,9 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.tc.writestory"><b>Link</b></a><br>
 <small>
-📥 100K+<br>
-⭐ 4.6 (797)<br>
-📦 18 MB
+download: 100K+<br>
+rating: 4.6 (797)<br>
+size: 18 MB
 </small>
 
   </td>
@@ -241,9 +279,9 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=kr.co.devstory.vocat&hl=en"><b>Link</b></a><br>
 <small>
-📥 500K+<br>
-⭐ 4.5 (7.57k)<br>
-📦 50 MB
+download: 500K+<br>
+rating: 4.5 (7.57k)<br>
+size: 50 MB
 </small>
 
   </td>
@@ -279,9 +317,9 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <td align="center" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.pallo.passiontimerscoped"><b>Link</b></a><br>
 <small>
-📥 5M+<br>
-⭐ 4.6 (76K)<br>
-📦 133 MB
+download: 5M+<br>
+rating: 4.6 (76K)<br>
+size: 133 MB
 </small>
 
   </td>
@@ -304,7 +342,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 ## Categories
 
-- **Education** — 3 apps
+- **Education** — 4 apps
 - **Network** — 1 app
 - **Productivity** — 3 apps
 
