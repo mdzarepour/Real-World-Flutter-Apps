@@ -1,0 +1,28 @@
+name: MoodBrush - Brush with Music
+creator: AHA Lab
+category: Health & Fitness
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=com.ahancer.moodbrush"
+    downloads: "10K+"
+    rating: "4.6"
+    reviews: "113"
+    size: "101 MB"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/moodbrush-brush-with-music/id6478204966"
+    rating: "1.0"
+    reviews: "4.7"
+    size: "177 MB"
+
+official_website: "https://ahancer.com/ahalab/"
+
+last_verified: 2026-08-19
