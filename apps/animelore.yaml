@@ -1,0 +1,21 @@
+name: Anime Lore Discover Anime
+creator: halako production
+category: Entertainment
+
+flutter:
+  status: production
+
+platforms:
+  - android
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=com.animelore.app"
+    downloads: "100K+"
+    rating: "4.7"
+    reviews: "1.77K"
+    size: "27 MB"
+
+official_website: 
+
+last_verified: 2026-08-19

@@ -103,9 +103,9 @@ void main() {
         ? '''
 <a href="${app['android']}"><b>Link</b></a><br>
 <small>
-download: ${app['androidDownloads'] ?? '-'}<br>
-rating: ${app['androidRating'] ?? '-'} (${app['androidReviews'] ?? '-'})<br>
-size: ${app['androidSize'] ?? '-'}
+↓ : ${app['androidDownloads'] ?? '-'}<br>
+★ : ${app['androidRating'] ?? '-'} (${app['androidReviews'] ?? '-'})<br>
+⛶ : ${app['androidSize'] ?? '-'}
 </small>
 '''
         : '-';
@@ -114,8 +114,8 @@ size: ${app['androidSize'] ?? '-'}
         ? '''
 <a href="${app['ios']}"><b>Link</b></a><br>
 <small>
-⭐ ${app['iosRating'] ?? '-'} (${app['iosReviews'] ?? '-'})<br>
-📦 ${app['iosSize'] ?? '-'}
+★ ${app['iosRating'] ?? '-'} (${app['iosReviews'] ?? '-'})<br>
+⛶ ${app['iosSize'] ?? '-'}
 </small>
 '''
         : '-';
