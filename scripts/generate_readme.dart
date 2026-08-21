@@ -1,4 +1,3 @@
-
 import 'dart:io';
 
 import 'package:yaml/yaml.dart';
@@ -93,7 +92,7 @@ void main() {
   <th width="18%" align="center">Creator</th>
   <th width="14%" align="center">Category</th>
   <th width="21%" align="center">Google Play</th>
-  <th width="35%" align="center">App Store</th>
+  <th width="50%" align="center">App Store</th>
 </tr>
 </thead>
 <tbody>
@@ -104,9 +103,9 @@ void main() {
         ? '''
 <a href="${app['android']}"><b>Link</b></a><br>
 <small>
-📥 ${app['androidDownloads'] ?? '-'}<br>
-⭐ ${app['androidRating'] ?? '-'} (${app['androidReviews'] ?? '-'})<br>
-📦 ${app['androidSize'] ?? '-'}
+download: ${app['androidDownloads'] ?? '-'}<br>
+rating: ${app['androidRating'] ?? '-'} (${app['androidReviews'] ?? '-'})<br>
+size: ${app['androidSize'] ?? '-'}
 </small>
 '''
         : '-';
@@ -121,8 +120,7 @@ void main() {
 '''
         : '-';
 
-    final logo =
-        '<img src="${app['logo']}" width="48" height="48" '
+    final logo = '<img src="${app['logo']}" width="48" height="48" '
         'style="border-radius: 10px; object-fit: cover;">';
 
     final officialWebsite = app['officialWebsite'] != null
@@ -217,15 +215,15 @@ real-world-flutter-apps/
 
 ''');
 
-buffer.writeln('\n---\n');
+  buffer.writeln('\n---\n');
 
 // ---------------------------------------------------------------------------
 // Data Model
 // ---------------------------------------------------------------------------
 
-buffer.writeln('## Data Model\n');
+  buffer.writeln('## Data Model\n');
 
-buffer.writeln('''
+  buffer.writeln('''
 Each application is represented by a YAML file inside the `apps/` directory.
 
 **Example:**
@@ -260,15 +258,15 @@ last_verified: 2026-08-19
 
 ''');
 
-buffer.writeln('\n---\n');
+  buffer.writeln('\n---\n');
 
 // ---------------------------------------------------------------------------
 // Automation
 // ---------------------------------------------------------------------------
 
-buffer.writeln('## Automation\n');
+  buffer.writeln('## Automation\n');
 
-buffer.writeln('''
+  buffer.writeln('''
 The README is generated automatically from the structured application data.
 
 When application data changes and is pushed to the main branch:
@@ -288,15 +286,15 @@ Automatic Commit
 This keeps the README synchronized with the underlying dataset without requiring manual table updates.
 ''');
 
-buffer.writeln('\n---\n');
+  buffer.writeln('\n---\n');
 
 // ---------------------------------------------------------------------------
 // Contributing
 // ---------------------------------------------------------------------------
 
-buffer.writeln('## Contributing\n');
+  buffer.writeln('## Contributing\n');
 
-buffer.writeln('''
+  buffer.writeln('''
 Contributions are welcome. You can contribute by:
 
 * Adding a real-world Flutter application
@@ -310,15 +308,15 @@ Before submitting a contribution, make sure the information is based on publicly
 See `CONTRIBUTING.md` for contribution guidelines.
 ''');
 
-buffer.writeln('\n---\n');
+  buffer.writeln('\n---\n');
 
 // ---------------------------------------------------------------------------
 // Data Guidelines
 // ---------------------------------------------------------------------------
 
-buffer.writeln('## Data Guidelines\n');
+  buffer.writeln('## Data Guidelines\n');
 
-buffer.writeln('''
+  buffer.writeln('''
 The project aims to keep application data:
 
 * Structured
@@ -330,15 +328,15 @@ The project aims to keep application data:
 Statistics such as downloads, ratings, reviews, and application size are snapshots and may change over time.
 ''');
 
-buffer.writeln('\n---\n');
+  buffer.writeln('\n---\n');
 
 // ---------------------------------------------------------------------------
 // Disclaimer
 // ---------------------------------------------------------------------------
 
-buffer.writeln('## Disclaimer\n');
+  buffer.writeln('## Disclaimer\n');
 
-buffer.writeln('''
+  buffer.writeln('''
 This repository is a community-maintained collection of publicly available information.
 
 Application statistics may change over time and should not be considered permanent values.
@@ -346,22 +344,21 @@ Application statistics may change over time and should not be considered permane
 Listing an application does not imply endorsement by its developer, company, Google, Apple, or the Flutter team.
 ''');
 
-buffer.writeln('\n---\n');
+  buffer.writeln('\n---\n');
 
 // ---------------------------------------------------------------------------
 // License
 // ---------------------------------------------------------------------------
 
-buffer.writeln('## License\n');
+  buffer.writeln('## License\n');
 
-buffer.writeln('This project is licensed under the MIT License.');
+  buffer.writeln('This project is licensed under the MIT License.');
 
 // ---------------------------------------------------------------------------
 // Write README
 // ---------------------------------------------------------------------------
 
-File('README.md').writeAsStringSync(buffer.toString());
+  File('README.md').writeAsStringSync(buffer.toString());
 
-print('README generated successfully.');
+  print('README generated successfully.');
 }
-
