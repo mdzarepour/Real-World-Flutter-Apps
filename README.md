@@ -10,7 +10,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **5 Apps** |
+| Applications | **7 Apps** |
 | Categories | **3** |
 
 ---
@@ -25,10 +25,48 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   <th width="18%" align="center">Creator</th>
   <th width="14%" align="center">Category</th>
   <th width="21%" align="center">Google Play</th>
-  <th width="21%" align="center">App Store</th>
+  <th width="35%" align="center">App Store</th>
 </tr>
 </thead>
 <tbody>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
+    <img src="assets/elsaspeak_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>ELSA Speak</strong>
+    <br><a href="https://elsaspeak.com/en"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    ElSA Speak
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Education</code>
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=us.nobarriers.elsa"><b>Link</b></a><br>
+<small>
+📥 10M+<br>
+⭐ 4.5 (996K)<br>
+📦 86 MB
+</small>
+
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886"><b>Link</b></a><br>
+<small>
+⭐ 4.8 (112K)<br>
+📦 288 MB
+</small>
+
+  </td>
+</tr>
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
@@ -220,6 +258,44 @@ The goal of this project is to document the growing Flutter ecosystem through pu
   </td>
 </tr>
 
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
+    <img src="assets/ypt_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>YPT - Yeolpumta</strong>
+    <br><a href="https://www.yeolpumta.com/en/"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    Pallo Inc
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Education</code>
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=com.pallo.passiontimerscoped"><b>Link</b></a><br>
+<small>
+📥 5M+<br>
+⭐ 4.6 (76K)<br>
+📦 133 MB
+</small>
+
+  </td>
+
+  <td align="center" valign="middle">
+    <a href="https://apps.apple.com/us/app/ypt-study-group/id1441909643"><b>Link</b></a><br>
+<small>
+⭐ 4.7 (1.6K)<br>
+📦 279 MB
+</small>
+
+  </td>
+</tr>
+
 </tbody>
 </table>
 
@@ -228,7 +304,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 ## Categories
 
-- **Education** — 1 app
+- **Education** — 3 apps
 - **Network** — 1 app
 - **Productivity** — 3 apps
 
