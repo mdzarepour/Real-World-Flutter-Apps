@@ -1,0 +1,28 @@
+name: FKey:/ Boost Game & Reduce Ping
+creator: SOON BODYWERKZ
+category: Utility
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=win.fkey.netboost"
+    downloads: "10M+"
+    rating: "4"
+    reviews: "100K"
+    size: "33 MB"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/fkey-boost-game-reduce-ping/id6758829249"
+    rating: "3.6"
+    reviews: "698K"
+    size: "109 MB"
+
+official_website: "https://jumpjump.io/#/home/index"
+
+last_verified: 2026-08-19
