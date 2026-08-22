@@ -10,8 +10,8 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **11 Apps** |
-| Categories | **5** |
+| Applications | **12 Apps** |
+| Categories | **6** |
 
 ---
 
@@ -98,6 +98,44 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 <small>
 ★ 4.8 (112K)<br>
 ⛶ 288 MB
+</small>
+
+  </td>
+</tr>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
+    <img src="assets/fkey_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>FKey:/ Boost Game & Reduce Ping</strong>
+    <br><a href="https://jumpjump.io/#/home/index"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    SOON BODYWERKZ
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Utility</code>
+  </td>
+
+  <td align="left" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=win.fkey.netboost"><b>Link</b></a><br>
+<small>
+↓ : 10M+<br>
+★ : 4 (100K)<br>
+⛶ : 33 MB
+</small>
+
+  </td>
+
+  <td align="left" valign="middle">
+    <a href="https://apps.apple.com/us/app/fkey-boost-game-reduce-ping/id6758829249"><b>Link</b></a><br>
+<small>
+★ 3.6 (698K)<br>
+⛶ 109 MB
 </small>
 
   </td>
@@ -295,7 +333,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/modee_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
+    <img src="assets/moodee_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -455,6 +493,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 - **Health & Fitness** — 1 app
 - **Network** — 1 app
 - **Productivity** — 4 apps
+- **Utility** — 1 app
 
 ---
 
