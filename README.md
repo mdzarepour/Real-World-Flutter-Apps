@@ -10,29 +10,31 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **10 Apps** |
+| Applications | **11 Apps** |
 | Categories | **5** |
 
 ---
 
 ## Applications
 
+<div align="center">
+
 <table width="100%">
 <thead>
 <tr>
-  <th width="10%" align="center">Logo</th>
-  <th width="16%" align="center">App</th>
-  <th width="18%" align="center">Creator</th>
-  <th width="14%" align="center">Category</th>
-  <th width="21%" align="center">Google Play</th>
-  <th width="50%" align="center">App Store</th>
+  <th width="8%" align="center">Logo</th>
+  <th width="14%" align="center">App</th>
+  <th width="14%" align="center">Creator</th>
+  <th width="10%" align="center">Category</th>
+  <th width="27%" align="center">Google Play</th>
+  <th width="27%" align="center">App Store</th>
 </tr>
 </thead>
 <tbody>
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/animelore_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/animelore_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -48,7 +50,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Entertainment</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.animelore.app"><b>Link</b></a><br>
 <small>
 ↓ : 100K+<br>
@@ -58,14 +60,14 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     -
   </td>
 </tr>
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/elsaspeak_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/elsaspeak_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -81,7 +83,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Education</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=us.nobarriers.elsa"><b>Link</b></a><br>
 <small>
 ↓ : 10M+<br>
@@ -91,7 +93,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/us/app/elsa-speak-english-learning/id1083804886"><b>Link</b></a><br>
 <small>
 ★ 4.8 (112K)<br>
@@ -103,7 +105,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/gemininotebook_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/gemininotebook_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -119,7 +121,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Productivity</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.labs.language.tailwind"><b>Link</b></a><br>
 <small>
 ↓ : 10M+<br>
@@ -129,7 +131,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/us/app/gemini-notebook/id6737527615"><b>Link</b></a><br>
 <small>
 ★ 4.9 (55K)<br>
@@ -141,7 +143,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/habitkit_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/habitkit_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -157,7 +159,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Productivity</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.roehl.habitkit"><b>Link</b></a><br>
 <small>
 ↓ : 500K+<br>
@@ -167,7 +169,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/us/app/habit-tracker-habitkit/id6443918070"><b>Link</b></a><br>
 <small>
 ★ 4.9 (2.3K)<br>
@@ -179,7 +181,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/jumpjumpvpn_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/jumpjumpvpn_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -195,7 +197,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Network</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=app.jumpjumpvpn.jumpjumpvpn"><b>Link</b></a><br>
 <small>
 ↓ : 100M+<br>
@@ -205,7 +207,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/us/app/jumpjumpvpn-fast-secure/id6451097052"><b>Link</b></a><br>
 <small>
 ★ 4.7 (32K)<br>
@@ -217,7 +219,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/kanjicard_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/kanjicard_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -233,7 +235,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Education</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.ahancer.ahakanji"><b>Link</b></a><br>
 <small>
 ↓ : 100K+<br>
@@ -243,7 +245,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/il/app/kanji-card-learn-japanese/id6474921240"><b>Link</b></a><br>
 <small>
 ★ 1.0 (1)<br>
@@ -255,7 +257,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/moodbrush_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/moodbrush_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -271,7 +273,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Health & Fitness</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.ahancer.moodbrush"><b>Link</b></a><br>
 <small>
 ↓ : 10K+<br>
@@ -281,7 +283,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/us/app/moodbrush-brush-with-music/id6478204966"><b>Link</b></a><br>
 <small>
 ★ 1.0 (4.7)<br>
@@ -293,7 +295,40 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/storypad_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/modee_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>Moodee:/ To-dos for your mood</strong>
+    <br><a href="https://bluesignum2023.career.greetinghr.com/ko/bluesignum"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    BlueSignum Corp
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Productivity</code>
+  </td>
+
+  <td align="left" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=com.bluesignum.little_lighthouse"><b>Link</b></a><br>
+<small>
+↓ : 500K+<br>
+★ : 4.7 (27K)<br>
+⛶ : 125 MB
+</small>
+
+  </td>
+
+  <td align="left" valign="middle">
+    -
+  </td>
+</tr>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
+    <img src="assets/storypad_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -309,7 +344,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Productivity</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.tc.writestory"><b>Link</b></a><br>
 <small>
 ↓ : 100K+<br>
@@ -319,7 +354,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"><b>Link</b></a><br>
 <small>
 ★ 4.9 (14)<br>
@@ -331,7 +366,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/vocat_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/vocat_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -347,7 +382,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Education</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=kr.co.devstory.vocat&hl=en"><b>Link</b></a><br>
 <small>
 ↓ : 500K+<br>
@@ -357,7 +392,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/us/app/vocat-my-own-vocabulary/id15385467060"><b>Link</b></a><br>
 <small>
 ★ 4.8 (112)<br>
@@ -369,7 +404,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="assets/ypt_logo.png" width="48" height="48" style="border-radius: 10px; object-fit: cover;">
+    <img src="assets/ypt_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -385,7 +420,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
     <code>Education</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://play.google.com/store/apps/details?id=com.pallo.passiontimerscoped"><b>Link</b></a><br>
 <small>
 ↓ : 5M+<br>
@@ -395,7 +430,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     <a href="https://apps.apple.com/us/app/ypt-study-group/id1441909643"><b>Link</b></a><br>
 <small>
 ★ 4.7 (1.6K)<br>
@@ -408,6 +443,8 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 </tbody>
 </table>
 
+</div>
+
 
 ---
 
@@ -417,7 +454,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 - **Entertainment** — 1 app
 - **Health & Fitness** — 1 app
 - **Network** — 1 app
-- **Productivity** — 3 apps
+- **Productivity** — 4 apps
 
 ---
 
