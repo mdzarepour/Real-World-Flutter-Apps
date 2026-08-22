@@ -34,7 +34,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fanimelore_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/animelore_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -67,7 +67,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Felsaspeak_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/elsaspeak_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -105,7 +105,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Ffkey_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/fkey_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -143,7 +143,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fgemininotebook_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/gemininotebook_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -181,7 +181,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fhabitkit_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/habitkit_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -219,7 +219,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fieltspracticeband9_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/ieltspracticeband9_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -257,7 +257,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fjumpjumpvpn_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/jumpjumpvpn_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -295,7 +295,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fkanjicard_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/kanjicard_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -333,7 +333,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fmoodbrush_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/moodbrush_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -371,7 +371,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fmoodee_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/moodee_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -404,7 +404,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fstorypad_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/storypad_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -442,7 +442,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fvocat_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/vocat_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
@@ -480,7 +480,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
-    <img src="https://images.weserv.nl/?url=https%3A%2F%2Fraw.githubusercontent.com%2F%3CUSERNAME%3E%2F%3CREPO%3E%2Fmain%2Fassets%2Fypt_logo.png&w=96&h=96&fit=cover&mask=circle" width="48" height="48" alt="logo">
+    <img src="assets/ypt_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
   <td align="center" valign="middle">
