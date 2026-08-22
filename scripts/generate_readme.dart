@@ -84,15 +84,17 @@ void main() {
   buffer.writeln('## Applications\n');
 
   buffer.writeln('''
+<div align="center">
+
 <table width="100%">
 <thead>
 <tr>
-  <th width="10%" align="center">Logo</th>
-  <th width="16%" align="center">App</th>
-  <th width="18%" align="center">Creator</th>
-  <th width="14%" align="center">Category</th>
-  <th width="21%" align="center">Google Play</th>
-  <th width="50%" align="center">App Store</th>
+  <th width="8%" align="center">Logo</th>
+  <th width="14%" align="center">App</th>
+  <th width="14%" align="center">Creator</th>
+  <th width="10%" align="center">Category</th>
+  <th width="27%" align="center">Google Play</th>
+  <th width="27%" align="center">App Store</th>
 </tr>
 </thead>
 <tbody>
@@ -121,7 +123,7 @@ void main() {
         : '-';
 
     final logo = '<img src="${app['logo']}" width="48" height="48" '
-        'style="border-radius: 10px; object-fit: cover;">';
+        'style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">';
 
     final officialWebsite = app['officialWebsite'] != null
         ? '<a href="${app['officialWebsite']}"><small>Website</small></a>'
@@ -146,11 +148,11 @@ void main() {
     <code>${app['category']}</code>
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     $android
   </td>
 
-  <td align="center" valign="middle">
+  <td align="left" valign="middle">
     $ios
   </td>
 </tr>
@@ -160,6 +162,8 @@ void main() {
   buffer.writeln('''
 </tbody>
 </table>
+
+</div>
 ''');
 
   buffer.writeln('\n---\n');

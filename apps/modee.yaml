@@ -1,0 +1,21 @@
+name: Moodee:/ To-dos for your mood
+creator: BlueSignum Corp
+category: Productivity
+
+flutter:
+  status: production
+
+platforms:
+  - android
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=com.bluesignum.little_lighthouse"
+    downloads: "500K+"
+    rating: "4.7"
+    reviews: "27K"
+    size: "125 MB"
+
+official_website: "https://bluesignum2023.career.greetinghr.com/ko/bluesignum"
+
+last_verified: 2026-08-20
