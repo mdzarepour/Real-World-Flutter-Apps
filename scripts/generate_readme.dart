@@ -2,6 +2,23 @@ import 'dart:io';
 
 import 'package:yaml/yaml.dart';
 
+/// Raw GitHub base URL for this repository's `main` branch.
+/// GitHub strips inline CSS (including border-radius) from README HTML,
+/// so rounded logos are produced via the images.weserv.nl proxy instead,
+/// which needs a publicly reachable URL to the source image.
+///
+/// ⚠️ Replace <USERNAME>/<REPO> with your actual GitHub username/repo.
+const repoRawBase = 'https://raw.githubusercontent.com/<USERNAME>/<REPO>/main';
+
+/// Builds a rounded-logo URL via images.weserv.nl.
+/// GitHub's README sanitizer strips `style="border-radius: ..."`, so we
+/// round the image itself through this proxy (mask=circle) instead of CSS.
+String roundedLogoUrl(String relativePath) {
+  final sourceUrl = '$repoRawBase/$relativePath';
+  final encoded = Uri.encodeComponent(sourceUrl);
+  return 'https://images.weserv.nl/?url=$encoded&w=96&h=96&fit=cover&mask=circle';
+}
+
 void main() {
   final appsDirectory = Directory('apps');
   final apps = <Map<String, dynamic>>[];
@@ -21,7 +38,7 @@ void main() {
       'creator': data['creator'],
       'category': data['category'],
       'officialWebsite': data['official_website'],
-      'logo': 'assets/${fileName}_logo.png',
+      'logo': roundedLogoUrl('assets/${fileName}_logo.png'),
       'android': data['stores']?['google_play']?['url'],
       'androidDownloads': data['stores']?['google_play']?['downloads'],
       'androidRating': data['stores']?['google_play']?['rating'],
@@ -122,8 +139,9 @@ void main() {
 '''
         : '-';
 
-    final logo = '<img src="${app['logo']}" width="48" height="48" '
-        'style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">';
+    // app['logo'] is already a weserv.nl URL that returns a circular image,
+    // so no inline style is needed (GitHub strips it anyway).
+    final logo = '<img src="${app['logo']}" width="48" height="48" alt="logo">';
 
     final officialWebsite = app['officialWebsite'] != null
         ? '<a href="${app['officialWebsite']}"><small>Website</small></a>'

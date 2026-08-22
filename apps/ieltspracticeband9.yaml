@@ -1,0 +1,28 @@
+name: IELTS Practice Band 9
+creator: LT EduApp
+category: Education
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=com.lt.ieltspracticetest"
+    downloads: "1M+"
+    rating: "4.7"
+    reviews: "37.7k"
+    size: "46 MB"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/ielts-practice-band-9/id1487374890"
+    rating: "4.6"
+    reviews: "156"
+    size: "82.8 MB"
+
+official_website: "https://app.ieltspracticeonline.com/"
+
+last_verified: 2026-08-19
