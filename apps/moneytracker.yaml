@@ -1,0 +1,27 @@
+name: Money Manager - Expense Tracker, Budget
+creator: Horoscope365
+category: Finance
+
+flutter:
+  status: production
+
+platforms:
+  - android
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=com.ahancer.ahakanji"
+    downloads: "5M+"
+    rating: "4.9"
+    reviews: "314K"
+    size: "19 MB"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/money-tracker-expense-budget/id6444122615"
+    rating: "4.8"
+    reviews: "381"
+    size: "75.8 MB"
+
+official_website: "https://money.quhou123.com/"
+
+last_verified: 2026-09-14
