@@ -10,8 +10,8 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **13 Apps** |
-| Categories | **6** |
+| Applications | **14 Apps** |
+| Categories | **7** |
 
 ---
 
@@ -333,6 +333,44 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
+    <img src="assets/moneytracker_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>Money Manager - Expense Tracker, Budget</strong>
+    <br><a href="https://money.quhou123.com/"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    Horoscope365
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Finance</code>
+  </td>
+
+  <td align="left" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=com.ahancer.ahakanji"><b>Link</b></a><br>
+<small>
+↓ : 5M+<br>
+★ : 4.9 (314K)<br>
+⛶ : 19 MB
+</small>
+
+  </td>
+
+  <td align="left" valign="middle">
+    <a href="https://apps.apple.com/us/app/money-tracker-expense-budget/id6444122615"><b>Link</b></a><br>
+<small>
+★ 4.8 (381)<br>
+⛶ 75.8 MB
+</small>
+
+  </td>
+</tr>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
     <img src="assets/moodbrush_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
@@ -528,6 +566,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 - **Education** — 5 apps
 - **Entertainment** — 1 app
+- **Finance** — 1 app
 - **Health & Fitness** — 1 app
 - **Network** — 1 app
 - **Productivity** — 4 apps
