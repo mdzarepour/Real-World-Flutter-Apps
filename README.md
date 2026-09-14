@@ -10,7 +10,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 | Metric | Value |
 |---|---:|
-| Applications | **14 Apps** |
+| Applications | **15 Apps** |
 | Categories | **7** |
 
 ---
@@ -333,6 +333,44 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 <tr style="text-align: center; vertical-align: middle;">
   <td align="center" valign="middle">
+    <img src="assets/linga_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
+  </td>
+
+  <td align="center" valign="middle">
+    <strong>Linga Read & Learn Languages</strong>
+    <br><a href="https://ahancer.com/ahalab/"><small>Website</small></a>
+  </td>
+
+  <td align="center" valign="middle">
+    PragmaTech Limited
+  </td>
+
+  <td align="center" valign="middle">
+    <code>Education</code>
+  </td>
+
+  <td align="left" valign="middle">
+    <a href="https://play.google.com/store/apps/details?id=io.linga&hl=fa"><b>Link</b></a><br>
+<small>
+↓ : 500K+<br>
+★ : 4.6 (6.9K)<br>
+⛶ : 26 MB
+</small>
+
+  </td>
+
+  <td align="left" valign="middle">
+    <a href="https://apps.apple.com/us/app/linga-read-learn-languages/id1525101819"><b>Link</b></a><br>
+<small>
+★ 4.9 (186)<br>
+⛶ 121.8 MB
+</small>
+
+  </td>
+</tr>
+
+<tr style="text-align: center; vertical-align: middle;">
+  <td align="center" valign="middle">
     <img src="assets/moneytracker_logo.png" width="48" height="48" style="border-radius: 12px; object-fit: cover; display: block; margin: 0 auto;">
   </td>
 
@@ -564,7 +602,7 @@ The goal of this project is to document the growing Flutter ecosystem through pu
 
 ## Categories
 
-- **Education** — 5 apps
+- **Education** — 6 apps
 - **Entertainment** — 1 app
 - **Finance** — 1 app
 - **Health & Fitness** — 1 app
