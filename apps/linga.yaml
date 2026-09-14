@@ -1,0 +1,28 @@
+name: Linga Read & Learn Languages
+creator: PragmaTech Limited
+category: Education
+
+flutter:
+  status: production
+
+platforms:
+  - android
+  - ios
+
+stores:
+  google_play:
+    url: "https://play.google.com/store/apps/details?id=io.linga&hl=fa"
+    downloads: "500K+"
+    rating: "4.6"
+    reviews: "6.9K"
+    size: "26 MB"
+
+  app_store:
+    url: "https://apps.apple.com/us/app/linga-read-learn-languages/id1525101819"
+    rating: "4.9"
+    reviews: "186"
+    size: "121.8 MB"
+
+official_website: "https://ahancer.com/ahalab/"
+
+last_verified: 2026-08-19
